@@ -2,19 +2,7 @@ h1. BlitzMax TextMate Bundle
 
 h2. Install
 
-h4. With Git
-
-Clone the git repository into _/Users/you/Library/Application Support/TextMate/Bundles/BlitzMax.tmbundle_.
-
-For example:
-
-<pre>cd /Users/you/Library/Application Support/TextMate/Bundles/
-git clone git://github.com/nilium/blitzmax.tmbundle.git</pre>
-
-
-h4. Without Git
-
-To install the bundle, download the bundle as a ZIP/TAR file from GitHub (see links) and extract the contents of the archive to _/Users/you/Library/Application Support/TextMate/Bundles/BlitzMax.tmbundle_.  You will have to create the BlitzMax.tmbundle directory yourself.
+You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
 
 h4. Setup
 
@@ -74,3 +62,14 @@ h2. Links
 * "GitHub Repo":http://github.com/nilium/blitzmax.tmbundle/tree/master
 * "TextMate":http://www.macromates.com
 * "E Text Editor":http://www.e-texteditor.com (Essentially TextMate for Windows)
+
+h2. License
+
+If not otherwise specified (see below), files in this repository fall under the following license:
+
+<pre>Permission to copy, use, modify, sell and distribute this
+software is granted. This software is provided "as is" without
+express or implied warranty, and with no claim as to its
+suitability for any purpose.</pre>
+
+An exception is made for files in readable text which contain their own license information, or files where an accompanying file exists (in the same directory) with a “-license” suffix added to the base-name name of the original file, and an extension of txt, html, or similar. For example “tidy” is accompanied by “tidy-license.txt”.
