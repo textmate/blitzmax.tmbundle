@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Folding</string>
+	<key>scope</key>
+	<string>source.blitzmax</string>
+	<key>settings</key>
+	<dict>
+		<key>foldingStartMarker</key>
+		<string>(?xi)
+		^\s*(
+			(?&lt;!end|end\s)(function|method|type|select|while|extern|try|if|rem) |
+			for | repeat | '\#region
+		)\b</string>
+		<key>foldingStopMarker</key>
+		<string>(?xi)
+		^\s*(
+		# end &lt;keyword&gt;
+			end\s*(function|method|type|select|while|extern|if|try|rem) |
+			wend | until | forever | next | '\#end\s?region
+		)\b</string>
+	</dict>
+	<key>uuid</key>
+	<string>F99D1FCE-29F6-4977-B9D0-422AE2A028C7</string>
+</dict>
+</plist>

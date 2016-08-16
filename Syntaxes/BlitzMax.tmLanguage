@@ -6,19 +6,6 @@
 	<array>
 		<string>bmx</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>(?xi)
-	^\s*(
-		(?&lt;!end|end\s)(function|method|type|select|while|extern|try|if|rem) |
-		for | repeat | '\#region
-	)\b</string>
-	<key>foldingStopMarker</key>
-	<string>(?xi)
-	^\s*(
-	# end &lt;keyword&gt;
-		end\s*(function|method|type|select|while|extern|if|try|rem) |
-		wend | until | forever | next | '\#end\s?region
-	)\b</string>
 	<key>keyEquivalent</key>
 	<string>^~B</string>
 	<key>name</key>
